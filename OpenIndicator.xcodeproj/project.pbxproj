@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001002A0001 /* OpenIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001012A0001 /* OpenIndicatorApp.swift */; };
+		A10002002A0002 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002012A0002 /* SystemMonitor.swift */; };
+		A10003002A0003 /* RingMenuBarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10003012A0003 /* RingMenuBarLabel.swift */; };
+		A10004002A0004 /* RingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10004012A0004 /* RingPanelView.swift */; };
+		A10005002A0015 /* RingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10005022A0016 /* RingIcon.swift */; };
+		A10006002A0017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10006022A0018 /* AppDelegate.swift */; };
+		A10007002A0019 /* GlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10007022A001A /* GlassStyle.swift */; };
+		A10008002A001B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10008022A001C /* Assets.xcassets */; };
+		A10009002A001D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10009022A001E /* AppSettings.swift */; };
+		A1000A002A001F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000A022A0020 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000012A0000 /* OpenIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10001012A0001 /* OpenIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenIndicatorApp.swift; sourceTree = "<group>"; };
+		A10002012A0002 /* SystemMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
+		A10003012A0003 /* RingMenuBarLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingMenuBarLabel.swift; sourceTree = "<group>"; };
+		A10004012A0004 /* RingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingPanelView.swift; sourceTree = "<group>"; };
+		A10005022A0016 /* RingIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingIcon.swift; sourceTree = "<group>"; };
+		A10006022A0018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10007022A001A /* GlassStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStyle.swift; sourceTree = "<group>"; };
+		A10008022A001C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10009022A001E /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A1000A022A0020 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10005012A0005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10006012A0006 /* OpenIndicator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenIndicator.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10007002A0007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10008002A0008 = {
+			isa = PBXGroup;
+			children = (
+				A10009002A0009 /* OpenIndicator */,
+				A1000A002A000A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000A002A000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000012A0000 /* OpenIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10009002A0009 /* OpenIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				A10001012A0001 /* OpenIndicatorApp.swift */,
+				A10002012A0002 /* SystemMonitor.swift */,
+				A10003012A0003 /* RingMenuBarLabel.swift */,
+				A10004012A0004 /* RingPanelView.swift */,
+				A10005022A0016 /* RingIcon.swift */,
+				A10006022A0018 /* AppDelegate.swift */,
+				A10007022A001A /* GlassStyle.swift */,
+				A10008022A001C /* Assets.xcassets */,
+				A10009022A001E /* AppSettings.swift */,
+				A1000A022A0020 /* SettingsView.swift */,
+				A10005012A0005 /* Info.plist */,
+				A10006012A0006 /* OpenIndicator.entitlements */,
+			);
+			path = OpenIndicator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000B002A000B /* OpenIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000C002A000C /* Build configuration list for PBXNativeTarget "OpenIndicator" */;
+			buildPhases = (
+				A1000D002A000D /* Sources */,
+				A10007002A0007 /* Frameworks */,
+				A1000E002A000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenIndicator;
+			productName = OpenIndicator;
+			productReference = A10000012A0000 /* OpenIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000F002A000F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A1000B002A000B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A10010002A0010 /* Build configuration list for PBXProject "OpenIndicator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10008002A0008;
+			productRefGroup = A1000A002A000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000B002A000B /* OpenIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000E002A000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10008002A001B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000D002A000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001002A0001 /* OpenIndicatorApp.swift in Sources */,
+				A10002002A0002 /* SystemMonitor.swift in Sources */,
+				A10003002A0003 /* RingMenuBarLabel.swift in Sources */,
+				A10004002A0004 /* RingPanelView.swift in Sources */,
+				A10005002A0015 /* RingIcon.swift in Sources */,
+				A10006002A0017 /* AppDelegate.swift in Sources */,
+				A10007002A0019 /* GlassStyle.swift in Sources */,
+				A10009002A001D /* AppSettings.swift in Sources */,
+				A1000A002A001F /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10011002A0011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10012002A0012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10013002A0013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenIndicator/OpenIndicator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.openindicator.OpenIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10014002A0014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenIndicator/OpenIndicator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.openindicator.OpenIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10010002A0010 /* Build configuration list for PBXProject "OpenIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10011002A0011 /* Debug */,
+				A10012002A0012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000C002A000C /* Build configuration list for PBXNativeTarget "OpenIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10013002A0013 /* Debug */,
+				A10014002A0014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000F002A000F /* Project object */;
+}

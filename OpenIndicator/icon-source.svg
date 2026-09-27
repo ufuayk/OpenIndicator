@@ -1,0 +1,46 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A3A3D"/>
+      <stop offset="100%" stop-color="#0E0E10"/>
+    </linearGradient>
+
+    <clipPath id="squircle">
+      <rect x="0" y="0" width="1024" height="1024" rx="224"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#squircle)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+  </g>
+
+  <!--
+    Redesigned for symmetry: the app icon is a mark, not a live snapshot of
+    one particular battery/signal/volume reading. Every element that used to
+    vary by state (partial ring fill, mixed-opacity Wi-Fi arcs, two dim +
+    two lit volume dots) is now drawn at a single, fixed, fully-symmetric
+    value — a complete ring, three evenly-lit arcs, four evenly-lit dots —
+    so the icon reads as one calm, consistent glyph rather than a random
+    frozen status.
+  -->
+
+  <!-- ring: full circle, centered, consistent weight -->
+  <circle cx="512" cy="512" r="300" fill="none" stroke="#FFFFFF"
+          stroke-width="34" stroke-linecap="round"/>
+
+  <!-- wifi arcs: three concentric bands, equal opacity, equal spacing -->
+  <path d="M 388 560 A 136 136 0 0 1 636 560" fill="none"
+        stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 428 594 A 94 94 0 0 1 596 594" fill="none"
+        stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 468 628 A 52 52 0 0 1 556 628" fill="none"
+        stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- volume dots: four, evenly spaced, identical weight -->
+  <g>
+    <circle cx="380" cy="742" r="19" fill="#FFFFFF"/>
+    <circle cx="444" cy="742" r="19" fill="#FFFFFF"/>
+    <circle cx="580" cy="742" r="19" fill="#FFFFFF"/>
+    <circle cx="644" cy="742" r="19" fill="#FFFFFF"/>
+  </g>
+</svg>
